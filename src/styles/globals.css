@@ -1,0 +1,16 @@
+:root {
+  --color-primario: #000000;
+  --color-fondo: #f0f0f0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: var(--color-fondo);
+  color: #333;
+}
+
+h1 {
+    color: var(--color-primario);
+}
