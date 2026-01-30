@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #000000;
+  --color-secondary: #666666;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #ffffff;
+  color: #111111;
+}
