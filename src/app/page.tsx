@@ -1,4 +1,9 @@
+'use client'
 import styles from "../styles/components/home.module.css";
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import { LINKS } from "@/constants/links";
 
 export default function Home() {
   return (
@@ -7,6 +12,15 @@ export default function Home() {
       <p className={styles.description}>
         Este es mi primer portfolio con Next.js, TypeScript y pnpm.
       </p>
+      <Stack spacing={2} direction="row">
+      <Button
+      sx={{textTransform:"none",
+    "&:hover":{opacity:0.85,}}}
+    target="_blank"
+      href={LINKS.github} variant="contained" color="secondary" size="small" endIcon={<GitHubIcon/>} >GitHub</Button>
+    </Stack>
+
+
     </main>
   );
 }
