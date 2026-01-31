@@ -20,7 +20,7 @@ export default function Header() {
         {/* Navegación */}
         <Stack direction="row" sx={navLinks}>
           <Button color="inherit" LinkComponent={Link} href="/">Inicio</Button>
-          <Button color="inherit">Proyectos</Button>
+          <Button color="inherit" href="/projects">Proyectos</Button>
           <Button color="inherit">Contacto</Button>
 
           
