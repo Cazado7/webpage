@@ -1,0 +1,12 @@
+.projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px; /* similar a spacing={4} */
+    justify-content: center;
+  }
+  
+  .projectItem {
+    flex: 1 1 320px;
+    max-width: 345px;
+  }
+  
